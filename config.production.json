@@ -1,5 +1,5 @@
 {
-  "url": "http://localhost:3000/blog/",
+  "url": "http://wdsc.herokuapp.com/blog/",
   "database": {
     "client": "sqlite3",
     "connection": {
@@ -9,9 +9,5 @@
   },
   "paths": {
     "contentPath": "content"
-  },
-  "server": {
-    "host": "127.0.0.1",
-    "port": "3000"
   }
 }
