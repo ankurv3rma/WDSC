@@ -176,7 +176,7 @@ body {
     -webkit-text-size-adjust: 100%;
     color: #5b5b5b;
     font-family: 'Karla', sans-serif;
-    background: #fafbfc;
+    background: white;
 }
 .container {
     padding-right: 0;
@@ -722,7 +722,7 @@ footer ul.circled li:before {
     transition: all 150ms ease-in;
     text-transform: uppercase;
     line-height: 1;
-    color: #FFF !important;
+    color: grey !important;
     position: relative;  
 }
 .navbar.light .navbar-nav > li > a,
@@ -921,7 +921,7 @@ footer ul.circled li:before {
     -webkit-transition: all 150ms ease-in;
     -o-transition: all 150ms ease-in;
     -moz-transition: all 150ms ease-in;
-    color: rgba(255,255,255,0.75);
+    color: grey;
     padding: 0;
     text-align: center;
     font-size: 40px;
@@ -958,7 +958,8 @@ footer ul.circled li:before {
 .tp-bullets.simplebullets.round .bullet {
     margin-left: 5px;
     border-radius: 100%;
-    border: 2px solid rgba(255,255,255,0.9);
+    /* border: 2px solid rgba(255,255,255,0.9); */
+    border: 2px solid grey;
     width: 14px;
     height: 14px;
     transition: all 150ms ease-in;
@@ -966,7 +967,8 @@ footer ul.circled li:before {
 }
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.round .bullet:hover {
-    background: rgba(255,255,255,0.9)
+    /* background: rgba(255,255,255,0.9) */
+    background: grey;
 }
 .tp-bullets.hidebullets {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1002,9 +1004,10 @@ footer ul.circled li:before {
     position: absolute;
     z-index: 200;
 }
-.tp-dottedoverlay.twoxtwo {
+/* .tp-dottedoverlay.twoxtwo {
     background: rgba(29,29,33,0.4)
-}
+} */
+/* Grey overlay on Caraousal Video */
 /*-----------------------------------------------------------------------------------*/
 /* 	06. OWL CAROUSEL
 /*-----------------------------------------------------------------------------------*/
